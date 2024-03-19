@@ -1,0 +1,48 @@
+.welcomeImage{
+    margin-top: 50px;
+    width: 100vw;
+    height: 750px;
+}
+
+.top-text{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.top-tital{  
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* 
+.top-paragraph{
+    font-size: small;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+} */
+
+.bottom-text{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center
+}
+
+.bottom-tital{
+    font-size: 200%;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-paragraph{
+    margin-top: 3%;
+}
