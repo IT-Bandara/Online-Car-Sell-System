@@ -1,11 +1,12 @@
 import React from 'react'
 import './WelcomeBody.css'
+import Slider from '../../Component/Slider/Slider'
 
 function WelcomeBody() {
   return (
     <div>
       <div className='top'>
-        <img src='welcomeImage.jpg' alt="welcome" className="welcomeImage" />
+        <Slider/>
 
         <div className='top-text'>
             <div className='top-tital'>

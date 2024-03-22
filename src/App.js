@@ -3,12 +3,13 @@ import './App.css';
 import Navbar from './Page/Wellcome page/Navbar';
 import WelcomeBody from './Page/Wellcome page/WelcomeBody';
 import Advertisement from './Component/Advertisement/Advertisement';
+import Slider from './Component/Slider/Slider';
 
 
 function App() {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/>
       <WelcomeBody/>
       
       <Advertisement size='900x250'>
@@ -19,7 +20,13 @@ function App() {
       </Advertisement>
       <Advertisement size='150x500'>
         <img src='welcomeImage.jpg'/>
-      </Advertisement>
+      </Advertisement> */}
+
+      <Slider className="welcomePage" time='2500'/>
+      <Slider className="Advertisement-900x250" time='5000'/>
+      <Slider className="Advertisement-600x150" time='5000'/>
+      <Slider className="Advertisement-150x500" time='4000'/>
+      
     </>
   );
 }

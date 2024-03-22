@@ -1,0 +1,58 @@
+.carousel{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+
+.welcomePage img{
+    width: 100vw;
+    height: 750px;
+}
+
+.Advertisement-900x250 img{
+    width: 900px;
+    height: 250px;
+}
+
+.Advertisement-600x150 img{
+    width: 600px;
+    height: 150px;
+}
+
+.Advertisement-150x500 img{
+    width: 150px;
+    height: 500px;
+}
+
+.hide{
+    display: none;
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+}
+
+.welcomePage-next-btn,.welcomePage-prev-btn{
+    display: none;
+}
+  
+.Advertisement-900x250-next-btn{
+    margin-left: 880px;
+}
+
+.Advertisement-600x150-next-btn{
+    margin-left: 580px;
+}
+
+.Advertisement-150x500-next-btn{
+    margin-left: 130px;
+}
+
