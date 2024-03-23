@@ -5,6 +5,7 @@ import WelcomeBody from './Page/Wellcome page/WelcomeBody';
 import Advertisement from './Component/Advertisement/Advertisement';
 import Slider from './Component/Slider/Slider';
 import Header from './Component/Header/Header';
+import CarAdd from './Component/Car-add/CarAdd';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
        */}
 
       <Header/>
+      <CarAdd/>
     </>
   );
 }
