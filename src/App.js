@@ -30,7 +30,7 @@ function App() {
       <Slider className="Advertisement-150x500" time='4000'/>
        */}
 
-      <Header/>
+      {/* <Header/> */}
       <CarAdd/>
     </>
   );

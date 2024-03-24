@@ -1,83 +1,28 @@
-import React from 'react'
+import React from 'react';
+import './CarAdd.css'
 
 function CarAdd() {
     return (
-        <div className="col-md-9">
-            <div className="row">
-                <div className="col-md-4">
-                    <div className="card" >
-
-                        <img src="logo.png" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+        <div className="product-card">
+            <div className="product-image">
+                <div className="left-image">
+                    <img src="welcomeImage.jpg" alt="First Image" width="150" height="100" />
                 </div>
-
-                <div className="col-md-4">
-                    <div className="card" >
-
-                        <img src="logo.png" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card" >
-
-                        <img src="logo.png" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card" >
-
-                        <img src="logo.png" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card" >
-
-                        <img src="logo.png" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="card" >
-
-                        <img src="logo.png" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                <div className="right-images">
+                    <img src="welcomeImage.jpg" alt="Second Image" width="100" height="50" />
+                    <img src="welcomeImage.jpg" alt="Third Image" width="100" height="50" />
                 </div>
             </div>
+            <div className="product-details">
+
+                <p className="title">Toyota | Aqua </p>
+
+            <p className="time-ago">2days ago</p>
+            <p className="price">Rs. 13,400,000</p>
+            <button className="view-details">VIEW DETAILS</button>
+            </div>
         </div>
-    )
+    );
 }
 
-export default CarAdd
+export default CarAdd;
