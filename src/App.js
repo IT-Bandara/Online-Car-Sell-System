@@ -6,6 +6,7 @@ import Advertisement from './Component/Advertisement/Advertisement';
 import Slider from './Component/Slider/Slider';
 import Header from './Component/Header/Header';
 import CarAdd from './Component/Car-add/CarAdd';
+import Search from './Component/Search-panel/Search';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
        */}
 
       {/* <Header/> */}
-      <CarAdd/>
+      {/* <CarAdd/> */}
+      <Search/>
     </>
   );
 }

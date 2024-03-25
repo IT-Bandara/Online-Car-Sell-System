@@ -1,0 +1,82 @@
+ .form-content{
+    display: flex;
+}
+.left-side,.right-side {
+    padding: 20px;
+    width: 300px;
+    height: 175px;
+    background-color:  rgba(6, 132, 136, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-side{
+    width: 250px;
+}
+
+.left-side label,
+.right-side label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left-side input,
+.left-side select,
+.right-side input,
+.right-side select{
+    margin-left: auto;
+}
+
+.price input[type="number"] {
+    width: 80px;
+}
+
+.left-side span {
+    font-size: 12px;
+    color: #838282;
+    margin: 3px;
+}
+
+.price .from {
+    margin-left: 14px;
+}
+
+.form-content input,
+.form-content select {
+    width: 130px;
+}
+
+.form-content select {
+    width: 130px;
+} 
+
+.right-side label {
+    justify-content: flex-end;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 50px;
+    background-color:   rgba(6, 132, 136, 0.9);
+}
+
+.search-btn{
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+
+.search-btn:hover{
+    background-color:  rgb(1, 131, 131);
+}
+
