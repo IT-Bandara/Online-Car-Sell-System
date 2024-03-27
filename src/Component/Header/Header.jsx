@@ -16,7 +16,7 @@ function Header() {
           <button className="homePage">Home</button>
           <button className="aboutUs">About Us</button>
           <button className="logOut">Log Out</button>
-          <button className="profile"><div className="profilr-img"><FaUser /></div></button>
+          <button className="profile"><div className="profile-img"><FaUser /></div></button>
         </div>
       </nav>
     </div>

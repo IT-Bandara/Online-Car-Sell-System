@@ -1,4 +1,4 @@
-export const cars = [
+export const Cars = [
     {
         id: 0,
         price: 5600000,
@@ -7,6 +7,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '3day ago',
     },
     {
         id: 1,
@@ -16,6 +17,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '3day ago',
     },
     {
         id: 2,
@@ -25,6 +27,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '3day ago',
     },
     {
         id: 3,
@@ -34,6 +37,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '3day ago',
     },
     {
         id: 4,
@@ -43,6 +47,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '2day ago',
     },
     {
         id: 5,
@@ -52,6 +57,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '2day ago',
     },
     {
         id: 6,
@@ -61,6 +67,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '1day ago',
     },
     {
         id: 7,
@@ -70,6 +77,7 @@ export const cars = [
         image1: 'https://www.vega.lk/img/evx/ws6.jpg',
         image2: 'https://www.vega.lk/img/evx/ws6.jpg',
         image3: 'https://www.vega.lk/img/evx/ws6.jpg',
+        time: '1day ago',
     },
 
 ]
