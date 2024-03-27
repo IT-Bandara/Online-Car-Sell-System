@@ -7,6 +7,7 @@ import Slider from './Component/Slider/Slider';
 import Header from './Component/Header/Header';
 import CarAdd from './Component/Car-add/CarAdd';
 import Search from './Component/Search-panel/Search';
+import HomePage from './Page/HomePage/HomePage';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
 
       {/* <Header/> */}
       {/* <CarAdd/> */}
-      <Search/>
+      {/* <Search/> */}
+      <HomePage/>
     </>
   );
 }

@@ -1,0 +1,47 @@
+.home-img {
+    width: 100vw;
+    height: 550px
+}
+
+.top-content {
+    position: absolute;
+    top: 60%;
+    /* Position the top of the div at the vertical center of the viewport */
+    left: 50%;
+    /* Position the left of the div at the horizontal center of the viewport */
+    transform: translate(-50%, -50%);
+    /* Move the div back by half of its own width and height */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top-btn {
+    text-align: center;
+    width: 140px;
+    height: 45px;
+    background-color: rgb(4, 222, 222);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.top-btn:hover {
+    background-color: rgb(17, 0, 255);
+}
+
+.Home-top-tital {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}

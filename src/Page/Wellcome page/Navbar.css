@@ -7,17 +7,19 @@
     z-index: 9999;
     position: fixed;
     width: 100%;
+    padding: 0px;
 }
 
-.left-menu{
+.left-menu {
     display: inline-flex;
     align-items: center;
 }
-.name{
+
+.name {
     font-weight: bold;
     font-size: x-large;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     text-align: center;
     margin: 0px;
@@ -28,7 +30,6 @@
     width: 45px;
     height: auto;
     border-radius: 50%;
-    margin: 2%;
     margin-left: 15%;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .right-menu button {
-    margin-right: 10px; 
+    margin-right: 10px;
     padding: 8px 16px;
     font-size: 15px;
     border: none;
@@ -47,11 +48,14 @@
     color: white;
 }
 
-.home,.aboutus,.login{
-    background-color:#04555b;
+.home,
+.aboutus,
+.login {
+    background-color: #04555b;
 }
-.signup{
-    background-color:#7db917;
+
+.signup {
+    background-color: #7db917;
 }
 
 .right-menu button:hover {

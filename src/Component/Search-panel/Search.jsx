@@ -6,7 +6,7 @@ function Search() {
 
     return (
 
-        <form>
+        <form className='search-form'>
             <div className="form-content">
 
                 <div className="left-side">
@@ -55,7 +55,7 @@ function Search() {
                 <div className="right-side">
 
                     <label className='Year'>Year
-                    <input type='number' />
+                        <input type='number' />
                     </label>
 
                     <label >Condition
@@ -82,12 +82,12 @@ function Search() {
                     </label>
 
                 </div>
-                
-                
+
+
             </div>
             <div className="button-container">
-                        <button className='search-btn'>Search</button>
-                    </div>
+                <button className='search-btn'>Search</button>
+            </div>
         </form>
 
     )

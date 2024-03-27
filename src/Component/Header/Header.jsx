@@ -6,19 +6,19 @@ function Header() {
   return (
     <div>
       <nav className="header">
-                <div className="leftMenu">
-                    <img src='Logo.png' alt="Logo" className="logo" />
-                    <p className='siteName'>MotorCar</p>
-                </div>
+        <div className="leftMenu">
+          <img src='Logo.png' alt="Logo" className="logo" />
+          <p className='siteName'>MotorCar</p>
+        </div>
 
-                <div className="rightMenu">
-                    
-                    <button className="homePage">Home</button>
-                    <button className="aboutUs">About Us</button>
-                    <button className="logOut">Log Out</button>
-                    <button className="profile"><FaUser/></button>
-                </div>
-            </nav>
+        <div className="rightMenu">
+
+          <button className="homePage">Home</button>
+          <button className="aboutUs">About Us</button>
+          <button className="logOut">Log Out</button>
+          <button className="profile"><div className="profilr-img"><FaUser /></div></button>
+        </div>
+      </nav>
     </div>
   )
 }
